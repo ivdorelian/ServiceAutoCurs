@@ -19,6 +19,7 @@ public class Main {
         service.enterService(5, 3, "CJ02FDS", 2);
         service.exitService(2, "ulei", 90);
         service.enterService(6, 2, "CJ02FDS", 2);
+        service.enterService(9, 12, "CJ02FDS", 2);
         Console console = new Console(service);
         console.run();
     }
